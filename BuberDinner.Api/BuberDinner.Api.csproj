@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>26e65a33-5fca-4d87-bb5d-667baebba0eb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+        <PackageReference Include="MediatR" Version="10.0.1" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuberDinner.App\BuberDinner.App.csproj" />
+    <ProjectReference Include="..\BuberDinner.Infra\BuberDinner.Infra.csproj" />
+      <ProjectReference Include="..\BuberDinner.Contracts\BuberDinner.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

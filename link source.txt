@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=fhM0V2N1GpY&list=PLzYkqgWkHPKBcDIP5gzLfASkQyTdy0t4k&ab_channel=AmichaiMantinband
+
+
+dotnet sln add (ls -r **\*.csproj) --add all the project in directory / sub directory to solution
+
+dotnet new webapi --no-https true --framework net5.0 --output BuberDinner.Domain --name BuberDinner.Domain
+--output is directory name
+--name is namespace and project name
+
+more .\buberdinner.sln       
+
+ dotnet add "d:\Git Source\cleanarch-dotnet6\BuberDinner.Api\BuberDinner.Api.csproj" reference "d:\Git Source\cleanarch-dotnet6\BuberDinner.Contracts\BuberDinner.Contracts.csproj"
+
+ dotnet run --project .\BuberDinner.Api\BuberDinner.Api.csproj
+
+
+  dotnet user-secrets init --project .\BuberDinner.Api\BuberDinner.Api.csproj
+
+ 
+ 
+ 
